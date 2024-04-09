@@ -1,0 +1,88 @@
+{
+    "data": {
+        "goods": [
+            {
+                "id": "382fd700-3b4a-4b6c-880d-2ac7c1c1f5fa",
+                "amount": 6,
+                "createdTime": "2023-11-11 01:15:35",
+                "donatorID": "c9ddb042-8ad5-41f7-a754-ce19f1ddc412",
+                "goodsID": "113d15b8-28a0-4f94-bb2d-3000217405b0",
+                "totalMoney": 60000,
+                "wishes": "去死吧 cnm"
+            },
+            {
+                "id": "f4f96282-a9ce-49a2-af8e-7b5719ed79a8",
+                "amount": 10,
+                "createdTime": "2023-11-11 00:27:07",
+                "donatorID": "c9ddb042-8ad5-41f7-a754-ce19f1ddc412",
+                "goodsID": "113d15b8-28a0-4f94-bb2d-3000217405b0",
+                "totalMoney": 100000,
+                "wishes": ""
+            }
+        ],
+        "totalGoodsCount": 2,
+        "money": [
+            {
+                "id": "31b0b192-fdbe-4123-b779-500072829f57",
+                "amount": 111100,
+                "createdTime": "2023-11-11 00:25:58",
+                "donatorID": "c9ddb042-8ad5-41f7-a754-ce19f1ddc412",
+                "doneeID": "0d2da53a-5e17-4372-abbc-2a293ca338f2",
+                "wishes": null
+            },
+            {
+                "id": "ae08aa54-d85c-4ad3-b3ba-793b3920757c",
+                "amount": 1212131,
+                "createdTime": "2023-11-11 01:15:02",
+                "donatorID": "c9ddb042-8ad5-41f7-a754-ce19f1ddc412",
+                "doneeID": "373d466b-2fc9-463d-b6e5-7880974c4a2a",
+                "wishes": "去死吧"
+            },
+            {
+                "id": "f1be71a3-d705-48be-aa5f-d0c2475a97bc",
+                "amount": 1111111,
+                "createdTime": "2023-11-10 23:55:19",
+                "donatorID": "c9ddb042-8ad5-41f7-a754-ce19f1ddc412",
+                "doneeID": "47d61922-b7e4-477d-ab2f-7bbdd04081d5",
+                "wishes": "去死吧"
+            }
+        ],
+        "totalMoney": 2434342
+    },
+    "status": 200,
+    "statusText": "",
+    "headers": {
+        "content-type": "application/json"
+    },
+    "config": {
+        "transitional": {
+            "silentJSONParsing": true,
+            "forcedJSONParsing": true,
+            "clarifyTimeoutError": false
+        },
+        "adapter": [
+            "xhr",
+            "http"
+        ],
+        "transformRequest": [
+            null
+        ],
+        "transformResponse": [
+            null
+        ],
+        "timeout": 1145141919,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "env": {},
+        "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Akari-Yumeta-Token": "d0b58766-9cbf-4997-8218-73e1d65c172b"
+        },
+        "baseURL": "http://104.156.230.230:8080",
+        "method": "get",
+        "url": "/donate/c9ddb042-8ad5-41f7-a754-ce19f1ddc412/info"
+    },
+    "request": {}
+}
